@@ -1,0 +1,442 @@
+@charset "utf-8";
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+   color: black;
+   font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;   
+   font-size: 1.6rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* hero iamge-------------- */
+
+.hero-image{
+    position: relative;
+}
+
+.site-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    font-weight: bold;
+    color: white;
+}
+
+.main-title{
+    font-size: 5.4rem;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 40px;
+}
+
+.sub-title{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* header ---------------------*/
+.header-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-list{
+    display: flex;
+    padding: 20px 0 0 0;
+}
+
+.nav-item{
+margin: 0 0 0 48px;
+font-size: 2.4rem;
+}
+
+
+
+/* top image---------------------- */
+.top-image{
+max-width: 100%;
+height: auto;
+}
+
+.site-title{
+    font-size: 2.4rem;
+    font-weight: bold;
+position: absolute;
+top: 50%;
+left: 50%;
+translate: (-50%,-50%);
+margin: 0%;
+padding: 0%;
+}
+
+.sub-title{
+position: absolute;
+}
+
+
+
+
+/* top image---------------------- */
+
+
+.site-title{
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+
+/* ABOUT ----------------------*/
+.text-center{
+    text-align: center;
+}
+
+.about_academy{
+margin: 0 0 40px;
+font-size: 2.4rem;
+font-weight: bold;
+color: #ffd61a;
+}
+
+
+.about-wrapper{
+    width: max-content;
+    margin: auto;
+}
+
+.about_cheese_academy{
+    margin: 0 0 40px;
+    font-size: 1.6rem;
+}
+
+.introduction{
+    margin: 0 0 40px;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.photo4{
+    display: flex;
+}
+
+/* course-------------------------- */
+.course-wrapper{
+text-align: center;
+}
+
+
+.course-main{
+    margin: 20px 0 40px; 
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+.curriculum{
+    margin: 20px 0 40px; 
+    font-size: 1.8rem;
+    color: black;
+}
+
+.course-introduction{
+    margin: 0 0 40px;
+    line-height: 2;
+}
+
+
+.farm-introduction{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.farm-image{
+    width: 50%;
+    height: 50%;
+}
+
+
+.intro-detail{
+    width: 522px;
+    display: block;
+    margin: auto;
+}
+
+
+.farm-intro-main{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+.course-detail{
+line-height: 2;
+text-align: justify;
+margin: 20px 0 0 0;
+}
+
+.farm-introduction2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+
+/* news header--------------------------- */
+.about-title{
+    margin: 20px 0 40px; 
+    font-size: 2.4rem;
+    font-weight: bold;
+    color:yellow;
+}
+
+.sub-title-news{
+    margin: 20px 0 40px;
+}
+
+.action{
+    margin: 20px 0 20px; 
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+}
+
+.action-detail{
+    line-height: 2;
+}
+
+
+/* ----------------news-list----------- */  
+.news-list{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: flex-start;
+   }
+
+   .news-item{
+     min-width: 33.333%;
+     width: 33.333%;
+     flex: 0 0 33.333%;
+   }
+   
+
+
+/* -----------------news-list------------ */
+.news-header{
+    text-align: center;  
+}
+
+.news-sign{
+    margin-bottom: 32px;
+    color: yellow;
+}
+
+
+.news-list{
+display: flex;
+flex-wrap: wrap;
+}
+
+.news-item{
+min-width: 33.333%;
+}
+
+/* ACCESS -----------------------------------*/
+
+.background-color{
+    width: auto;
+    background-color: #fafafa;
+}
+
+.access-wrapper{
+    width: 680px;
+    margin: auto;
+}
+
+.access-subtext-center{
+    margin: 20px 0 40px;
+}
+
+.access-main{
+    margin: 20px 0 40px; 
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+.access-sub{
+    margin: 20px 0 30px;
+}
+
+.map {
+    position: relative;
+    width: auto;
+    height: 0;
+    padding-top: 75%;
+}
+
+.map iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.information{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-title{
+    width: 172px;
+    font-weight: bold;
+}
+
+.info-detail{
+    width: 508px;
+}
+
+/* Contact -----------------------------------*/
+.contact-all{
+    width: 560px;
+    margin: auto;
+}
+
+.info-title{
+    width: 152px;
+    text-align: right;
+    margin: 0 20px 0 0;
+    padding: 8px 0 0 0;
+    font-weight: bold;
+}
+
+.write-space{
+    width: 388px;
+    margin: 0 0 32px;
+}
+
+.information{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-title.check-radio{
+    padding: 0;
+}
+
+.contact-main{
+    margin: 40px 0 40px; 
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+.contact-sub{
+    margin: 20px 0 40px;
+}
+
+.contact-detail{
+    line-height: 2;
+}
+
+.form-parts{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border: solid 1px #c9c9c9;
+    font-size: 1.6rem;
+}
+
+.notice{
+display: flex;
+}
+
+.no-exist{
+    margin: 20px 0 0px;
+}
+
+
+
+.info-wrapper{
+    width: 560px;
+    margin: auto;    
+}
+
+.reason-main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 40px;
+    width: 660px;
+}
+
+.reason-detail{
+    width: 388px;  
+}
+
+.label-item{
+    display: block;
+    font-size: 1.4rem;
+}
+
+.inpuiry{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 40px;
+    width: 660px;
+}
+
+.inquiry-box{
+    width: 388px;
+    margin: 0 0 32px;
+}
+
+.button{
+    width: 50%;
+    min-width: 264px;
+    max-width: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #68779a;
+    background: #cbe8fa;
+    cursor: pointer;
+}
+
+
+
+.footer {
+    position: relative;
+    padding: 24px 0;
+    background-color: #707070;
+}
+
+.copyrights{
+    color:black
+}
+
+/* ---------------
+
+CSSを適用していく時は、下記テンプレートをコピペして
+波括弧の間に命令を書くようにしましょう！
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ここからテンプレート ↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+.nickname{
+
+}
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑ ここからテンプレート ↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+---------------*/
+
+/*画面全体の基本設定*/
+
+/*画像を伸縮させるために必要*/
